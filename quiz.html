@@ -1,57 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>Travel Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
 
-<head>
-    <title>Travel Website</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+        <!--owl carousel-->
+        <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
 
-    <!--owl carousel-->
-    <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
-
-    <link type="image" rel="icon" href="images/holyday-bg.jpg" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
-</head>
-
-<body>
-    <nav>
-        <div class="container">
-            <div class="menu-par">
-                <div class="logo-par">
-                    <a href="index.html">
-                        <h2>Travel Go</h2>
-                    </a>
+        <link type="image" rel="icon" href="images/holyday-bg.jpg" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/quiz.css" />
+        <script type="text/javascript" src="./js/quiz.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <div class="menu-par">
+                    <div class="logo-par">
+                        <a href="index.html">
+                            <h2>Travel Go</h2>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                             <li><a class="menu_hover" href="index.html">Home</a></li>
+                             <li><a class="menu_hover" href="feedback.html">Feedback</a></li>
+                             <li><a class="menu_hover" href="shop.html">Shop</a></li>
+                             <li><a class="menu_hover" href="quiz.html">Quiz</a></li>
+                             <li><a class="menu_hover" href="gallery.html">Gallery</a></li>
+                             <li><a class="menu_hover" href="sitemap.html">Site Map</a></li>
+                             <li><a class="menu_hover" href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="toggle-btn">
+                        <i class="fa fa-bars"></i>
+                    </div>
                 </div>
-                <div class="nav">
-                    <ul>
-                         <li><a class="menu_hover" href="index.html">Home</a></li>
-                         <li><a class="menu_hover" href="feedback.html">Feedback</a></li>
-                         <li><a class="menu_hover" href="shop.html">Shop</a></li>
-                         <li><a class="menu_hover" href="quiz.html">Quiz</a></li>
-                         <li><a class="menu_hover" href="gallery.html">Gallery</a></li>
-                         <li><a class="menu_hover" href="sitemap.html">Site Map</a></li>
-                         <li><a class="menu_hover" href="about.html">About Us</a></li>
-                    </ul>
-                </div>
-                <div class="toggle-btn">
-                    <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="header" id="header">
+            <div class="timing" style="border:1px solid black;">
+                Time Remaining : <span id="time">120</span>s
+            </div>
+        </div>
+        <div class="upper">           
+            <a href="index.html" class="button">go back main page </a> 
+            <div class="form">
+                <div class="container">
+                    <div class="question">
+                        <div disabled="" id="questionBody" style="font-size: 25px;">
+                            <span class="color">Dear Customer,<BR> In order for you to gain more knowladge on our website, a set of questions is given herewith.</span><br><br><b>⭐A right answer will win you 2 marks.<br>⭐A wrong answer will make you lose 1 mark.</b><br>
+                            To start press the <b>START</b> button.
+                        </div>
+                    </div>
+                    <div  id="resultTable" style="display: none;"  >
+                        <table id="MyTable">
+                            <tr>
+                                <th>Q.No</th>
+                                <th>Ans</th>
+                                <th>Your Ans</th>
+                                <th>Status</th>
+                                <th>Marks</th>
+                                <th>Q.No</th>
+                                <th>Ans</th>
+                                <th>Your Ans</th>
+                                <th>Status</th>
+                                <th>Marks</th>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>2</th>
+                                <td>2</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>3</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>4</th>
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <td>5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>6</th>
+                                <td>6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>7</th>
+                                <td>3</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>8</th>
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>9</th>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th>10</th>
+                                <td>2</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th colspan="10"><b>You have got<b> <span id="gotMarks"></span> Out of 20. Enjoy again.</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="answers" id="answers" style="display: none;">
+                        <ul>
+                            <li><input type="radio" name="answer" onclick="checkAnswer(1)"><span id="ans1"></span></li>
+                            <li><input type="radio" name="answer" onclick="checkAnswer(2)"><span id="ans2"></span></li>
+                            <li><input type="radio" name="answer" onclick="checkAnswer(3)"><span id="ans3"></span></li>
+                            <li><input type="radio" name="answer" onclick="checkAnswer(4)"><span id="ans4"></span></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <button class="left" id="back" style="display: none;"  onclick="back();">Back</button>
+                        <button class="submit" id="submit" style="display: none;"  onclick="result();">Submit</button>
+                        <button class="reStart" id="reStart" style="display: none;"  onclick="reStart();">Re-Start</button>
+                        <button class="start" id="start" onclick="start();">START</button>
+                        <button class="right" id="next" style="display: none;"  onclick="next();">Next</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-
-
-<!-- enter code here  -->
-
-
-
-
-    <script type="text/javascript" src="/js/script.js"></script>
-</body>
-
+		<!--footer-->
+        <div class ="footer">
+            <div class="footer-bottom">
+                &copy; quiz | Desingned by Jude Bevan
+            </div> 
+        </div>
+    </body>
 </html>

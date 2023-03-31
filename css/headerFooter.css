@@ -1,0 +1,73 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     list-style-type: none;
+     text-decoration: none;
+ }
+ 
+ .container {
+     max-width: 1170px;
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+ 
+ }
+ 
+ a {
+     font-family: 'raleway';
+     font-weight: 600;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'raleway';
+     font-weight: 600;
+ }
+ 
+ p {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+ }
+ 
+ #arrow i {
+     position: fixed;
+     bottom: 20px;
+     right: 25px;
+     cursor: pointer;
+     background-color: #00a8b4;
+     color: #fff;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     border-radius: 50px;
+ }
+ 
+ /*header*/
+ 
+ header {
+     background-color: red;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding: 0 200px;
+     position: relative;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: overlay;
+     color: #fff;
+ }
+
+
+
+
+
+
+ /* add footer css here  */

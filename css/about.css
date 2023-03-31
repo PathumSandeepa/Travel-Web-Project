@@ -8,13 +8,13 @@
        height: 875px;
        overflow:  hidden;
        text-align: center ;
-       background-image: url(images/mem1.jpg);
+       background-image: url(images/slider/Rome.jpg);
        padding: 60px;
    }
    .team-section h1 {
        text-transform: uppercase;
        margin-bottom:  60px;
-       color :darkblue;
+       color:#303036 ;
        font-size: 40px;
    }
    .border{

@@ -34,20 +34,6 @@ p {
     font-weight: 500;
 }
 
-#arrow i {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    cursor: pointer;
-    background-color: #00a8b4;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50px;
-}
-
 /*header*/
 
 header {
@@ -281,61 +267,12 @@ section#welcome_Sec p {
     line-height: 30px;
 }
 
-
-.smalltext {
-    padding-top: 5px;
-    font-size: 26px;
-}
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    color: #00a8c5;
-    padding: 12px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-
-input[type=text]:focus,
-select:focus,
-textarea:focus {
-    border: 2px solid #00a8c5;
-    outline: none;
-}
-
-input[type=submit] {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    width: 100%;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 12px 20px;
-    transition: all 0.5s ease;
-}
-
-
-input[type=submit]:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
 .explore-content-par {
     display: flex;
     align-items: flex-start;
 }
 
 .explore-info {
-    flex: 1;
-}
-
-.counter-form {
     flex: 1;
 }
 

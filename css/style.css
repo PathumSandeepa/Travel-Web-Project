@@ -279,7 +279,7 @@ section#welcome_Sec p {
 
 /*gallery*/
 
-section#gallery {
+/* section#gallery {
     margin: 100px 0px;
 }
 
@@ -310,7 +310,7 @@ section#gallery {
     background-color: rgba(255, 255, 255, 0.5);
     opacity: 0.7;
     transform: scale(1.1, 1.1);
-}
+} */
 
 /*holyday-fiji*/
 
@@ -630,3 +630,6 @@ div#blog-par {
     left: 0px;
     padding-top: 20px;
   }
+
+
+

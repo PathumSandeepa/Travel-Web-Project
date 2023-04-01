@@ -1,0 +1,33 @@
+section#gallery {
+     margin: 100px 0px;
+ }
+ 
+ 
+ .filter-gal-par {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ 
+ .port-image {
+     width: 100%;
+ }
+ 
+ .gallery_product {
+     margin-bottom: 20px;
+     overflow: hidden;
+ }
+ 
+ .gallery_product img {
+     width: 360px;
+     height: 300px;
+     object-fit: cover;
+     transition: all 0.5s ease;
+ }
+ 
+ .gallery_product img:hover {
+     background-color: rgba(255, 255, 255, 0.5);
+     opacity: 0.7;
+     transform: scale(1.1, 1.1);
+ }
+ 

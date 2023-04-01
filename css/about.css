@@ -8,13 +8,13 @@
        height: 875px;
        overflow:  hidden;
        text-align: center ;
-       background-image: url(images/mem1.jpg);
+       background-image: url(images/slider/Rome.jpg);
        padding: 60px;
    }
    .team-section h1 {
        text-transform: uppercase;
        margin-bottom:  60px;
-       color :darkblue;
+       color:#303036 ;
        font-size: 40px;
    }
    .border{
@@ -98,25 +98,3 @@
        box-shadow: 0 0 10px 4px rgb(20, 20, 19);
    }
    
-   
-   /*FOOTER*/
-   
-   .footer{
-       margin-bottom: 0;
-       background: #303036;
-       color: black;
-       height: 30px;
-       position: relative;
-        
-   }  
-   .footer-bottom{
-       background-color: #181818;
-       color: white;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       position: absolute;
-       bottom: 0px;
-       left: 0px;
-       padding-top: 20px;
-   }

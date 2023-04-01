@@ -1,3 +1,4 @@
+// about us
 const member1 = document.getElementById('member1');
 const member2 = document.getElementById('member2');
 const member3 = document.getElementById('member3');

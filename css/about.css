@@ -1,100 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-   
-   }
-   .team-section{
-       height: 875px;
-       overflow:  hidden;
-       text-align: center ;
-       background-image: url(images/slider/Rome.jpg);
-       padding: 60px;
-   }
-   .team-section h1 {
-       text-transform: uppercase;
-       margin-bottom:  60px;
-       color:#303036 ;
-       font-size: 40px;
-   }
-   .border{
-       display: block;
-       margin: auto;
-       width: 160px;
-       height: 5px;
-       background: #3498db;
-       margin-bottom: 30px;
-   }
-   .ps{
-       margin-bottom: 40px;
-   }
-   .ps a {
-       display: inline-block;
-       margin: 0 30px;
-       width: 160px;
-       height: 160px;
-       overflow: hidden;
-       border-radius: 50%;
-   }
-   .ps a img{
-       width: 100%;
-       filter: grayscale(100%);
-       transition: 0.4s all;
-   
-   }
-   .ps a:hover > img{
-       filter: none;
-   }
-   .section{
-       width: 600px;
-       margin: auto;
-       font-size: 20px;
-       color: black;
-       text-align: center;
-       height: 0;
-       overflow: hidden;
-   
-   }
-   .section {
-       width: 600px;
-       margin: auto;
-       font-size: 20px;
-       color:black;
-       text-align: center;
-       
-   }
-   .description{
-       padding-top: 40px;
-       padding-left: 90px;
-       text-align: justify;
-   }
-   .section:target{
-       height: auto;
-   
-   }
-   .name{
-       display: block;
-       margin-bottom: 30px;
-       text-align: center;
-       text-transform: uppercase;
-       font-size: 22px;
-   }
-   .button {
-       position: fixed;
-       margin-top: 50px;
-       margin-left: 50px;
-       display: inline-block;
-       padding: 20px 20px;
-       float: left;
-       text-decoration: none;
-       color: black;
-       background-color: none;
-       border-radius: 6px;
-       outline: none;
-       transition: .3s;
-   }
-   .button:hover{
-       color: black;
-       box-shadow: 0 0 10px 4px rgb(20, 20, 19);
-   }
-   
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    margin: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  
+  .member:hover img {
+    transform: scale(1.2);
+  }
+  
+  .details {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    font-size: 18px;
+  }
+

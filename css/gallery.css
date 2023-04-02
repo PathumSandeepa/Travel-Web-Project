@@ -28,7 +28,7 @@
      height: 450px;
  }
 
- /* .image{
+ .image{
     display: block;
     width: 100%;
     height: auto;
@@ -45,14 +45,15 @@
     height: 0;
     transition: .5s ease;
  }
- .filter-gal-par:hover .overlay{
+ 
+ .image:hover .overlay{
     width: 100%;
  }
 
  h3{
     width: 100%;
     margin-top: 30%;
-    color: white;
+    color: black;
     font-size: 4vw;
     position: absolute;
     text-align: center;
@@ -60,11 +61,11 @@
 
  h4{
     text-align: center;
-    color: wheat;
+    color: black;
     font-size: 1.2vw;
     margin: 60%, 0, 0, 18%;
     width: 70%;
     letter-spacing: 5px;
     line-height: 1.5em;
  }
-  */
+ 

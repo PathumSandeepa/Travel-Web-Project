@@ -6,7 +6,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/feedback.css" />
+    <script src="js/feedback.js"></script>
 
     <link type="image" rel="icon" href="images/holyday-bg.jpg" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
@@ -38,8 +39,42 @@
     </nav>
 
 
-
+    <div class="container">
+        <div class="row">
     
+            <h1 class="text1">Feedback</h1>
+            <br>
+            <h2 class="text2">Wait a moment and give us a feedback!</h2>
+            <br>
+            <form name = "feedback" onsubmit="formValidate()">
+    
+            <div class="cover">
+                    <h3 class="text3">How would you rate us?</h3>
+    
+                    <label class="radio-inline"><input type="radio" name="rating" value="Bad">Bad</label>
+                    <label class="radio-inline"><input type="radio" name="rating" value="Average">Average</label>
+                    <label class="radio-inline"><input type="radio" name="rating" value="Good">Good</label>
+                    <label class="radio-inline"><input type="radio" name="rating" value="Very good">Very Good</label>
+            </div>
+            <br><br><br>
+                <div class="box-below">
+                    <label for="name">Full Name<br>
+                        <input type = "text" class="box" id="name" name="name" placeholder="Name"></label>
+    
+                    <label for="email">Email<br>
+                        <input type = "text" class="box" id="email" name="email" placeholder="someone@mail.com"></label>
+    
+                    <label for="number">Mobile Number<br>
+                        <input type = "number" class="box" id="number" name="number" placeholder="+94771234567"></label>
+    
+                    <label for="comment">Comments<br>
+                        <textarea id="comment" class="box" placeholder="Type your comment here....."></textarea></label>
+    
+                    <input type="submit" class="form-btn" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
 
     <div class="footer">
         <div class="footer-bottom">
@@ -49,5 +84,4 @@
 
     <script type="text/javascript" src="/js/script.js"></script>
 </body>
-
 </html>

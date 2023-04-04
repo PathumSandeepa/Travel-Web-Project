@@ -4,7 +4,7 @@ h1{
      margin: 30px 0 50px;
      text-shadow: 2px 2px #e0d5c4;
      font-size: 50px;
-     color: rgb(56, 227, 25);
+     color: rgb(18, 72, 223);
  }
   
  .text{
@@ -12,14 +12,18 @@ h1{
      font-family: 'raleway';
  }
  .circle{
-     fill: rgb(18, 205, 28);
+     fill: rgb(137, 148, 137);
  }
  .circle:hover{
-     fill:rgb(49, 148, 9);
+     fill:rgb(71, 75, 70);
      animation: 2s ease-in-out infinite alternate;
      
  }
  
  .sitemap-container{
-     margin-left:18%;
+     margin-left:5%;
+     margin-right:5%;
+     margin-bottom: 1%;
+     background: rgb(22, 22, 97);
  }
+ 

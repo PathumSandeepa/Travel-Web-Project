@@ -147,3 +147,35 @@ span8.onclick = function() {
 span9.onclick = function() { 
   modal9.style.display = "none";
 }
+
+
+//change color
+  var colorDropdown = document.querySelector('.dropdown-content');
+  colorDropdown.addEventListener('click', function(event) {
+    event.preventDefault();
+    var color = event.target.getAttribute('href');
+    document.body.style.backgroundColor = color;
+  });
+
+
+//change font size
+var fontSizeBtn = document.querySelector(".dropdown:nth-of-type(2) .dropbtn");
+var fontSizeOptions = document.querySelectorAll(".dropdown:nth-of-type(2) .dropdown-content a");
+
+fontSizeOptions.forEach(function(option) {
+  option.addEventListener("click", function() {
+    var selectedSize = option.textContent;
+
+    if (selectedSize === "AAA") {
+      document.body.style.fontSize = "13px"; // H5 font size
+    } else if (selectedSize === "AAA") {
+      document.body.style.fontSize = "18px"; // H4 font size
+    } else if (selectedSize === "AAA") {
+      document.body.style.fontSize = "20px"; // H3 font size
+    }
+  });
+});
+
+
+
+

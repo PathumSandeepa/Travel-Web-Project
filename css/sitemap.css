@@ -1,29 +1,96 @@
-h1{
-     text-align:center;
-     font-family: 'raleway';
-     margin: 30px 0 50px;
-     text-shadow: 2px 2px #e0d5c4;
-     font-size: 50px;
-     color: rgb(18, 72, 223);
- }
-  
- .text{
-     font-size: 50;
-     font-family: 'raleway';
- }
- .circle{
-     fill: rgb(137, 148, 137);
- }
- .circle:hover{
-     fill:rgb(71, 75, 70);
-     animation: 2s ease-in-out infinite alternate;
-     
- }
- 
- .sitemap-container{
-     margin-left:5%;
-     margin-right:5%;
-     margin-bottom: 1%;
-     background: rgb(22, 22, 97);
- }
- 
+body {
+    background: url(images/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /*background-color: rgb(0, 248, 255);*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+line {
+    stroke: #ffffff;
+    stroke-width: 4;
+}
+
+.svglayer {
+    background-color: rgba(207, 105, 0, 0.5);
+    border-radius: 10px;
+    position: static;
+    top: 50%;
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+
+
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    /*position: static;*/
+    /*border-radius: 10px;*/
+}
+
+svg {
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    /*padding: 10px;*/
+    border-radius: 10px;
+
+}
+
+
+
+ellipse {
+    fill: #009aff;
+    stroke: #ffffff;
+    stroke-width: 4;
+}
+
+a:hover ellipse {
+    stroke: #ff0000;
+    stroke-width: 9;
+}
+
+a:hover text {
+    font-size: 21px;
+    fill: #000000;
+}
+
+text {
+    fill: #ffffff;
+    font-size: 20px;
+    alignment-baseline: middle;
+    text-anchor: middle;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.product{
+
+    display: flex;
+    align-items: center;
+
+    float: left;
+}
+
+.items{
+    /*padding: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.active{
+    border-bottom: solid white;
+}

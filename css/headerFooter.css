@@ -110,9 +110,23 @@
     background-color: #3e8e41;
   }
 
-
-
-
-
-
  /* add footer css here  */
+ .footer{
+  margin-bottom: 0;
+  background: none;
+  color: #d3d3d3;
+  height: 30px;
+  position: relative;   
+}
+
+.footer-bottom{
+  background-color: #181818;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}

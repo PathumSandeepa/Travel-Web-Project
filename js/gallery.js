@@ -3,6 +3,14 @@ var modal1 = document.getElementById("myModal1");
 var modal2 = document.getElementById("myModal2");
 var modal3 = document.getElementById("myModal3");
 
+var modal4 = document.getElementById("myModal4");
+var modal5 = document.getElementById("myModal5");
+var modal6 = document.getElementById("myModal6");
+
+var modal7 = document.getElementById("myModal7");
+var modal8 = document.getElementById("myModal8");
+var modal9 = document.getElementById("myModal9");
+
 
 // Get the images and insert them inside the modals - use their "alt" text as a caption
 var img1 = document.getElementById("myImg1");
@@ -32,6 +40,60 @@ img3.onclick = function(){
   captionText3.innerHTML = this.alt;
 }
 
+var img4 = document.getElementById("myImg4");
+var modalImg4 = document.getElementById("img04");
+var captionText4 = document.getElementById("caption");
+img4.onclick = function(){
+  modal4.style.display = "block";
+  modalImg4.src = this.src;
+  captionText4.innerHTML = this.alt;
+}
+
+var img5 = document.getElementById("myImg5");
+var modalImg5 = document.getElementById("img05");
+var captionText5 = document.getElementById("caption");
+img5.onclick = function(){
+  modal5.style.display = "block";
+  modalImg5.src = this.src;
+  captionText5.innerHTML = this.alt;
+}
+
+var img6 = document.getElementById("myImg6");
+var modalImg6 = document.getElementById("img06");
+var captionText6 = document.getElementById("caption");
+img6.onclick = function(){
+  modal6.style.display = "block";
+  modalImg6.src = this.src;
+  captionText6.innerHTML = this.alt;
+}
+
+var img7 = document.getElementById("myImg7");
+var modalImg7 = document.getElementById("img07");
+var captionText7 = document.getElementById("caption");
+img7.onclick = function(){
+  modal7.style.display = "block";
+  modalImg7.src = this.src;
+  captionText7.innerHTML = this.alt;
+}
+
+var img8 = document.getElementById("myImg8");
+var modalImg8 = document.getElementById("img08");
+var captionText8 = document.getElementById("caption");
+img8.onclick = function(){
+  modal8.style.display = "block";
+  modalImg8.src = this.src;
+  captionText8.innerHTML = this.alt;
+}
+
+var img9 = document.getElementById("myImg9");
+var modalImg9 = document.getElementById("img09");
+var captionText9 = document.getElementById("caption");
+img9.onclick = function(){
+  modal9.style.display = "block";
+  modalImg9.src = this.src;
+  captionText9.innerHTML = this.alt;
+}
+
 
 
 
@@ -39,6 +101,14 @@ img3.onclick = function(){
 var span1 = document.getElementById("myModal1").getElementsByClassName("close")[0];
 var span2 = document.getElementById("myModal2").getElementsByClassName("close")[0];
 var span3 = document.getElementById("myModal3").getElementsByClassName("close")[0];
+
+var span4 = document.getElementById("myModal4").getElementsByClassName("close")[0];
+var span5 = document.getElementById("myModal5").getElementsByClassName("close")[0];
+var span6 = document.getElementById("myModal6").getElementsByClassName("close")[0];
+
+var span7 = document.getElementById("myModal7").getElementsByClassName("close")[0];
+var span8 = document.getElementById("myModal8").getElementsByClassName("close")[0];
+var span9 = document.getElementById("myModal9").getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modals
 span1.onclick = function() { 
@@ -54,3 +124,26 @@ span3.onclick = function() {
 }
 
 
+span4.onclick = function() { 
+  modal4.style.display = "none";
+}
+
+span5.onclick = function() { 
+  modal5.style.display = "none";
+}
+
+span6.onclick = function() { 
+  modal6.style.display = "none";
+}
+
+span7.onclick = function() { 
+  modal7.style.display = "none";
+}
+
+span8.onclick = function() { 
+  modal8.style.display = "none";
+}
+
+span9.onclick = function() { 
+  modal9.style.display = "none";
+}

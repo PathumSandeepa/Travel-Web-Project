@@ -6,12 +6,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-	<link type="text/css" rel="stylesheet" href="css/headerFooter.css" />
-    <link type="text/css" rel="stylesheet" href="css/shop.css" />
-
+    <link type="text/css" rel="stylesheet" href="css/headerFooter.css" />
     <link type="image" rel="icon" href="images/holyday-bg.jpg" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" href="css/shop-main.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"
+  >
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/multislider.min.js"></script>
+    <title>Cart</title>
+    
 </head>
 
 <body>
@@ -30,20 +42,238 @@
                         <li><a class="menu_hover" href="shop.html">Shop</a></li>
                         <li><a class="menu_hover" href="quiz.html">Quiz</a></li>
                         <li><a class="menu_hover" href="sitemap.html">Site Map</a></li>
-						<li><a class="menu_hover" href="feedback.html">Feedback</a></li>                           
-						<li><a class="menu_hover" href="about.html">About Us</a></li>
+                        <li><a class="menu_hover" href="feedback.html">Feedback</a></li>
+                        <li><a class="menu_hover" href="about.html">About Us</a></li>
                     </ul>
-                </div>
+                </div>                
             </div>
         </div>
     </nav>
-	
 
-    <div class="footer">
-        <div class="footer-bottom">
-            Travel Go Copyright © 2023  - All rights reserved! - Done by: Lasantha Karunathne
+            <!-- !Navbar -->
+            <nav>              
+                
+                <!-- !commented -->
+                <div class="navbar-top">
+                    <div>
+                        <button id="menuButton"><i class="fas fa-bars"></i></button>
+                        
+                </div>
+                       
+                        <!--Shopping cart-->
+                        <div class="shopping-cart">
+                            <div class="total-prices">
+                                <!--Shopping cart logo-->
+                                <i
+                                    class="fas fa-shopping-cart shoppingCartButton"
+                                ></i>
+                                <!--The total prices of products in the shopping cart -->
+                                <h6 id="total-prices"></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="producstOnCart hide">
+                    <div class="overlay"></div>
+                    <div class="top">
+                        <button id="closeButton">
+                            <i class="fas fa-times-circle"></i>
+                        </button>
+                        <h3>Cart</h3>
+                    </div>
+    
+                    <ul id="buyProducts">
+                       <li> Your shopping cart is empty</li>
+                      
+                    </ul>
+                    <div class="containerInCart">
+                        <form action="payment.html">
+                            <h6>Enter your name</h6><input id="name" type="text" required>
+                            <h6>Enter your email</h6><input id="email" type="email" required>
+                            <!-- <button type="submit" id="btn-submit" class="btn check-out hidden">Check out</button> -->
+                            <button type="submit" id="btn-submit" value="click" onclick="passValues();" class="btn check-out hidden">Check out</button>
+                        </form>
+                    </div>
+                   
+                </div>
+            </nav>
+           
+            <main>              
+                        <h1>Travel Go Store</h1>
+                        
+                    </div>
+                </section>
+                <section class="main-section">
+                    <div class="pop-mobiles">
+                        
+                        
+                        <div class="pop-mobiles-2">
+                            <ul class="products">
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/bottle.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="5"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                                </button>
+                                                
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Travel Bottle (S)</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue"
+                                                    >1099</span
+                                                >
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/portablecharger.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="6"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                                </button>
+                                                
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Portable Charger</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue">999</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/poweradapter.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="7"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                                </button>
+                                                
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Power Adapter</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue">800</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/travel umbrella.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="8"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                                </button>
+                                                
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Travel Umbrella</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue">599</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/Travelorganizers.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="9"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                                </button>
+                                                
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Travelor Ganizers</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue">850</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-u">
+                                        <figure class="product-image">
+                                            <img src="Images/shop/bottle.png" alt="products">
+                                            <div class="product-over">
+                                                <button
+                                                    class="btn btn-small addToCart"
+                                                    data-product-id="10"
+                                                >
+                                                    <i class="fas fa-cart-plus"></i
+                                                    >Add to cart
+                                               
+                                            </div>
+                                        </figure>
+                                        <div class="product-summary">
+                                            <h4 class="productName">Travel Bottle (L)</h4>
+                                            <span class="stars"></span>
+                                            <h4 class="price">
+                                                $<span class="priceValue">769</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-bottom">
+                Travel Go Copyright © 2023  - All rights reserved! - Done by: Lasantha Karunarathne
+            </div>
         </div>
-    </div>
+      
+    </footer>
+  <!-- footer end -->
+
+  <script src="js/shop.js"></script>
+  <script src="js/shop-cart.js"></script>
+
     <script type="text/javascript" src="/js/script.js"></script>
 </body>
 

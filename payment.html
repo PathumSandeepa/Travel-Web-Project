@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="container1">
+        <form action="#">
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner Name <span>*</span></h3>
+                <div class="input-field">
+                    <input type="text" required>
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV <span>*</span></h3>
+                <div class="input-field">
+                    <input type="password" required maxlength="3" minlength="3">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Card Number <span>*</span></h3>
+                <div class="input-field">
+                    <input type="text" required maxlength="10" minlength="10">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>Expire date <span>*</span></h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months" required>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                      </select>
+                      <select name="years" id="years" required>
+                        <option value="2020">2023</option>
+                        <option value="2019">2024</option>
+                        <option value="2018">2025</option>
+                        <option value="2017">2026</option>
+                        <option value="2016">2027</option>
+                        <option value="2015">2028</option>
+                      </select>
+                </div>
+                <div class="cards">
+                    <img src="images/payment/mc.png" alt="">
+                    <img src="images/payment/vi.png" alt="">
+                    <img src="images/payment/pp.png" alt="">
+                </div>
+                
+            </div>  
+
+            <!-- !address and contact  validation -->
+
+            <h4>Name</h4> <p id="nameOut" class="para">1</p>
+            <h4>Email</h4> <p id="emailOut" class="para">2</p>
+     <!-- !address and contact  validation -->
+
+            <a href="#"><button id="conform"  class="btn-submit" type="submit">Conform Payment</button></a>
+            <a href="shop.html"><button id="cancel" class="btn-cancel" type="button">Cancel Payment</button></a>  
+        </div>
+    </form>
+    </div>
+
+<!-- ? form 2 -->
+
+<div class="contact-details">
+
+<form action="" id="form2">
+    <h2>Confirm Your Payment</h2>
+    <div class="first-row">
+        <div class="OwnerName">
+            <h3>Owner Name <span>*</span></h3>
+            <div class="input-field">
+                <input type="text"  required>
+            </div>
+        </div>
+    </div>
+
+    <div class="second-row">
+        <div class="address1">
+            <h3>Address line1 <span>*</span></h3>
+            <div class="input-field">
+                <input type="text"  required>
+            </div>
+        </div>
+    </div>
+    <div class="third-row">
+        <div class="address1">
+            <h3>Address line2 </h3>
+            <div class="input-field">
+                <input type="text" >
+            </div>
+        </div>
+    </div>
+    <div class="third-row">
+        <div class="address1">
+            <h3>Address line3 </h3>
+            <div class="input-field">
+                <input type="text" >
+            </div>
+        </div>
+    </div>
+
+    <div class="forth-row">
+        <div class="city">
+            <h3>Town / City <span>*</span> </h3>
+            <div class="input-field">
+                <input type="text" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="fifth-row">
+        <div class="zipCode">
+            <h3>Zip code<span>*</span> </h3>
+            <div class="input-field">
+                <input type="text"  required>
+            </div>
+        </div>
+    </div>
+
+    <div class="sixth-row">
+        <div class="country">
+            <h3>Country<span>*</span> </h3>
+            <div class="input-field">
+                <input type="text"  required>
+            </div>
+        </div>
+    </div>
+
+    <a href=""><button onclick="completed()" class="btn-submit" type="submit">Conform </button></a>
+    <a href="shop.html"><button  class="btn-cancel" type="button">Cancel </button></a>  
+
+</form>
+
+</div>
+
+  <script src="js/payment.js"></script>
+  
+</body>
+
+</html>

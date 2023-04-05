@@ -1,22 +1,9 @@
-.container-about {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-}
-
-.member {
-  margin: 20px;
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-}
 .container_a{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #d5dad8;
+    background: #b4bbb8;
   }
   
   .member {
@@ -27,18 +14,39 @@
     overflow: hidden;
   }
 
-.about-container {
-  margin-top: 1rem;
-}
+  .about-container{
+    margin-top: 1rem;
+  }
+  
+  .member img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: transform 0.5s;
+    border-radius: 70%;
+  }
+  
+  .member:hover img {
+    transform: scale(1.15);
+  }
 
-.member img {
-  width: 80%;
-  height: 80%;
-  object-fit: cover;
-  transition: transform 0.5s;
-  border-radius: 100%;
-}
+  .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+  }
 
-.member:hover img {
-  transform: scale(1.2);
-}
+  .aboutText {
+    background: #6d7974;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .member:hover .middle {
+    opacity: 1;
+  }
+  

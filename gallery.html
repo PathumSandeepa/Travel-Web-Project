@@ -13,6 +13,27 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
 
+    <style>
+        body {
+            transition: background-color 0.7s ease;
+        }
+                /* Style for dropdown menu */
+                /* .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        } */
+    </style>
+
 </head>
 
 <body>
@@ -36,23 +57,18 @@
                         <div class="dropdown">
                             <button class="dropbtn">Change color</button>
                             <div class="dropdown-content">
-                                <a href="#">green</a>
-                                <a href="#">yellow</a>
-                                <a href="#">purple</a>
+                                <a href="#" onclick="document.body.style.backgroundColor = 'white'">Default</a>
+                                <a href="#" onclick="document.body.style.backgroundColor = 'green'">green</a>
+                                <a href="#" onclick="document.body.style.backgroundColor = 'yellow'">yellow</a>
+                                <a href="#" onclick="document.body.style.backgroundColor = 'purple'">purple</a>
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Change font size</button>
                             <div class="dropdown-content">
-                                <a href="#">
-                                    <h5>AAA</h5>
-                                </a>
-                                <a href="#">
-                                    <h4>AAA</h4>
-                                </a>
-                                <a href="#">
-                                    <h3>AAA</h3>
-                                </a>
+                                <a href="#" onclick="document.querySelectorAll('body *').forEach(el => el.style.fontSize = '16px')">AAA</a>
+                                <a href="#" onclick="document.querySelectorAll('body *').forEach(el => el.style.fontSize = '18px')">AAA</a>
+                                <a href="#" onclick="document.querySelectorAll('body *').forEach(el => el.style.fontSize = '20px')">AAA</a>
                             </div>
                         </div>
                     </ul>

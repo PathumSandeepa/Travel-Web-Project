@@ -7,10 +7,11 @@ body{
 form{
     margin: 0 220px 0 220px;
 }
-.container{
+.container_f{
     padding: 50px;
+    background: #c2c0c0;
 }
-.container h1{
+.container_f h1{
     text-align: center;
     /*color: #861010;*/
     text-shadow: 0 0 3px #ffffff;

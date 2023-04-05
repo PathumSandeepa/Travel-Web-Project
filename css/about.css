@@ -1,4 +1,4 @@
-.container {
+.container a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,6 @@
 
   .about-container{
     margin-top: 1rem;
-
   }
   
   .member img {
@@ -30,7 +29,7 @@
     transform: scale(1.2);
   }
   
-  .details {
+  /* .details {
     margin-top: 50px;
     text-align: center;
   }
@@ -42,5 +41,5 @@
   
   .details p {
     font-size: 18px;
-  }
+  } */
 

@@ -1,27 +1,27 @@
 var questions = [
-    ["Which country broke the record of consecutive international wins?",1] , 
-    ["Who was the highest points scorer in the Six Nations?",2] , 
-    ["How many tries were scored in the fifteen Six Nations games played?",3] , 
-    ["How many Grand Slams have France won in all, following their success this year?",4] , 
-    ["Clermont finally won the Top 14 title after how many attempts in previous finals?",1] ,  
-    ["Which position did Australia finish in the 2009/2010 IRB Sevens World Series?",2] , 
-    ["How many Super 14 games did the Lions win?",3] , 
-    ["Who topped the Super 14 try-scoring charts this year?",4] , 
-    ["Who are the Guinness/Aviva Premiership defending champions?",1] , 
-    ["Who are the Magners League defending champs?",2]
+    ["What is the main language spoken in Paris?",1] , 
+    ["Which of these museums in Paris is dedicated to modern art?",2] , 
+    ["What is the Vatican?",3] , 
+    ["What can visitors do in Central Park of New York city?",4] , 
+    ["What is the Imperial Palace in Tokyo?",1] ,  
+    ["What is the name of the clock tower located at the north end of the Palace of Westminster?",2] , 
+    ["Which street in London is one of the busiest shopping streets in Europe?",3] , 
+    ["What is the most famous beach in Sydney?",4] , 
+    ["What is the Christ the Redeemer statue, and where is it located?",1] , 
+    ["What is the Burj Khalifa?",2]
     ];
     
     var answers = [
-    ["Lithuania","England","New Zealand","South Africa"] , 
-    ["Jonah Lomu","Stephen Jones","Richie McCaw","Dan Carter"] , 
-    ["20","40","48","60"] , 
-    ["Two","Five","Seven","Nine"] , 
-    ["11","15","8","9"] , 
-    ["1st","3rd","6th","4th"] , 
-    ["One","Four","Zero","Five"] , 
-    ["Dan Carter","Stephen Jones","Richie McCaw","Joe Rokocoko"] , 
-    ["Leicester","Jonah Lomu","Alun Wyn Jones","Martin Johnson"] , 
-    ["Brian o'Driscoll","Ospreys","Leicester","Stephen Jones"] , 
+    ["French","English","Spanish","German"] , 
+    ["Musée d'Orsay","Louvre Museum","Centre Georges Pompidou","Rodin Museum"] , 
+    ["The largest church in the world","A famous fountain in Rome","The smallest independent state in the world","A museum dedicated to modern art"] , 
+    ["Go for a bikeride","See broadway shows","Have a picnic","All of the above"] , 
+    ["The residence of the Emperor of Japan,A famous sushi restaurant","A popular nightclub","A shopping district"] , 
+    ["Tower Bridge","Big Ben","The Shard","The London Eye"] , 
+    ["Regent Street","Bond Street","Oxford Stret","Carnaby Street"] , 
+    ["Coogee Beach","Stephen Beach","Manly Beach","Bondy Beach"] , 
+    ["It is a statue of Jesus Christ, and it is located on top of Corcovado Mountain.","It is a statue of a famous Brazilian singer, and it is located on Copacabana Beach.","It is a statue of a famous politician, and it is located in the city center.","It is a statue of a famous soccer player, and it is located in Maracana Stadium."] , 
+    ["A luxurious hotel in Dubai","The world's tallest building in Dubai","An artificial island in Dubai","A desert safari attraction in Dubai"] , 
     ];
     var t;
     time = 119;

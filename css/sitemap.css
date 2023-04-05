@@ -1,79 +1,75 @@
-body {
-    background: url(images/1.jpg) no-repeat center center fixed;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 line {
-    stroke: #ffffff;
-    stroke-width: 4;
+  stroke: #ffffff;
+  stroke-width: 4;
 }
 
 .svglayer {
-    background-color: rgba(20, 21, 50, 0.929);
-    border-radius: 10px;
-    position: static;
-    top: 50%;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
+  background-color: rgba(20, 21, 50, 0.929);
+  border-radius: 10px;
+  position: static;
+  top: 50%;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.sitemap-div {
+  margin: 8rem;
 }
 
 svg {
-    width: max-content;
-    background-color: rgba(5, 6, 25, 0.84);
-    margin: 20px;
-    border-radius: 10px;
+  width: max-content;
+  background-color: rgba(5, 6, 25, 0.84);
+  margin: 20px;
+  border-radius: 10px;
 }
 
 ellipse {
-    fill: #04385b;
-    stroke: #ffffff;
-    stroke-width: 4;
+  fill: #04385b;
+  stroke: #ffffff;
+  stroke-width: 3;
 }
 
 a:hover ellipse {
-    stroke: #e62020;
-    stroke-width: 9;
+  stroke: #3ee620;
+  stroke-width: 6;
 }
 
 a:hover text {
-    font-size: 21px;
-    fill: #000000;
+  font-size: 21px;
+  fill: #07ffd2;
 }
 
 text {
-    fill: #ffffff;
-    font-size: 20px;
-    alignment-baseline: middle;
-    text-anchor: middle;
+  fill: #ffffff;
+  font-size: 20px;
+  alignment-baseline: middle;
+  text-anchor: middle;
 }
 
 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
-.product{
+.product {
+  display: flex;
+  align-items: center;
 
-    display: flex;
-    align-items: center;
-
-    float: left;
+  float: left;
 }
 
-.items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.active{
-    border-bottom: solid white;
+.active {
+  border-bottom: solid white;
 }

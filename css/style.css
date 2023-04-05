@@ -287,41 +287,6 @@ section#welcome_Sec p {
 }
 
 
-/*gallery*/
-
-/* section#gallery {
-    margin: 100px 0px;
-}
-
-
-.filter-gal-par {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.port-image {
-    width: 100%;
-}
-
-.gallery_product {
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.gallery_product img {
-    width: 360px;
-    height: 300px;
-    object-fit: cover;
-    transition: all 0.5s ease;
-}
-
-.gallery_product img:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0.7;
-    transform: scale(1.1, 1.1);
-} */
-
 /*holyday-fiji*/
 
 #fiji-holyday {
@@ -620,26 +585,6 @@ div#blog-par {
     }
 
 };
-
-.footer{
-    margin-bottom: 0;
-    background: none;
-    color: #d3d3d3;
-    height: 30px;
-    position: relative;   
-  }
-  
-  .footer-bottom{
-    background-color: #181818;
-    color: #fff;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
-  }
 
 
 

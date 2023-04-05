@@ -17,6 +17,17 @@ body {
   background: white;
 }
 
+.blog-img{
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin: auto; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   

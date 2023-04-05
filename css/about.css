@@ -11,6 +11,21 @@
   height: 350px;
   overflow: hidden;
 }
+.container_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #d5dad8;
+  }
+  
+  .member {
+    margin: 40px;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+  }
 
 .about-container {
   margin-top: 1rem;

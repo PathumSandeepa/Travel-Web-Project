@@ -150,12 +150,9 @@ span9.onclick = function() {
 
 
 //change color
-  var colorDropdown = document.querySelector('.dropdown-content');
-  colorDropdown.addEventListener('click', function(event) {
-    event.preventDefault();
-    var color = event.target.getAttribute('href');
-    document.body.style.backgroundColor = color;
-  });
+function changeBodyColor(color) {
+  document.body.style.backgroundColor = color;
+}
 
 
 //change font size

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
 </head>
 <body>
     <h1>Travel Website Group Project 🌍</h1>
     <p>
-    This project is a comprehensive travel website built using HTML, CSS, and Vanilla JavaScript. Our team developed this website as part of a group project for our university's first-year web development module. The purpose of the project was to apply the knowledge and skills we gained during the course to create a functional and visually appealing website. Through this project, we aimed to showcase our ability to work collaboratively, design user-friendly interfaces, and implement responsive layouts and interactive features using fundamental web technologies.
-</p>
-
+        This project is a comprehensive travel website built using HTML, CSS, and Vanilla JavaScript. Our team developed this website as part of a group project for our university's first-year web development module. The purpose of the project was to apply the knowledge and skills we gained during the course to create a functional and visually appealing website. Through this project, we aimed to showcase our ability to work collaboratively, design user-friendly interfaces, and implement responsive layouts and interactive features using fundamental web technologies.
+    </p>
     <h2>Features:</h2>
     <ul>
         <li>Explore beautiful travel destinations 🗺️</li>
